@@ -52,7 +52,7 @@ function AppLayout() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/school-website">
       <AppLayout />
     </BrowserRouter>
   );
