@@ -26,7 +26,7 @@ function AppLayout() {
       <Navbar />
       <main>
         <Routes>
-          <Route path="/"             element={<Home />} />
+          <Route path=""             element={<Home />} />
           <Route path="/about"        element={<About />} />
           <Route path="/academics"    element={<Academics />} />
           <Route path="/admissions"   element={<Admissions />} />
